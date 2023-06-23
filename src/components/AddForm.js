@@ -14,7 +14,7 @@ export function AddForm(props) {
   return (
     <ContainerStyled maxWidth="sm">
       <TextFieldStyled
-        label="Add Item"
+        label="Add Item Here"
         variant="outlined"
         value={props.text}
         onChange={props.handleInputChange}
